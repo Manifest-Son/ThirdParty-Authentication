@@ -1,0 +1,39 @@
+.login_container{
+    border: 2px solid green;
+    display: grid;
+    place-content: center;
+    min-height: 60vh;
+}
+.login_wrapper{
+    padding: 1rem;
+}
+.login_wrapper h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5rem;
+}
+.email_section, .password_section{
+    display: grid;
+    padding: .7rem 0 ;
+}
+.email_section label, .password_section label{
+    color: green;
+    font-size: 1.2rem;
+}
+.email_section input, .password_section input{
+    padding: .5rem;
+}
+button{
+    width: 100%;
+    padding: .6rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgba(4, 100, 245, 0.863);
+}
+.login_wrapper h3{
+    padding:1rem;
+}
+.thirdparty_logins{
+    display: grid;
+    place-content: center;
+}
